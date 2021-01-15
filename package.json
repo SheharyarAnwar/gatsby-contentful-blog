@@ -16,8 +16,15 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "dayjs": "^1.10.3",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.2.3",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-source-contentful": "^4.4.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+    "react-dom": "^16.13.1",
+    "sass": "^1.32.4"
+  },
+  "devDependencies": {}
 }

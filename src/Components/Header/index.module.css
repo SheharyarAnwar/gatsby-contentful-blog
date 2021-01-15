@@ -1,0 +1,17 @@
+.header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlinks .navItem {
+  font-weight: 500;
+  /* letter-spacing: 1px; */
+  margin-right: 25px;
+}

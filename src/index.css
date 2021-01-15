@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --seablue: #264653;
+  --primary: #d8e2dc;
+  --base: #f0e2dc;
+  --secondary: #f8edeb;
+}
+body {
+  background-color: var(--secondary);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #264653;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}

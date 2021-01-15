@@ -1,0 +1,12 @@
+.root {
+  width: 50vw;
+  min-width: 300px;
+  height: 150px;
+  border-radius: 20px;
+  background: var(--base);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
