@@ -22,5 +22,7 @@ h6 {
   color: #264653;
 }
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", serif;
+  color: #264653;
+  letter-spacing: 0.7px;
 }

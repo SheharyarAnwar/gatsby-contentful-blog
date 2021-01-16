@@ -16,15 +16,24 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^14.1.2",
+    "@contentful/rich-text-types": "^14.1.2",
+    "@reduxjs/toolkit": "^1.5.0",
     "dayjs": "^1.10.3",
     "dotenv": "^8.2.0",
     "firebase": "^8.2.3",
+    "formik": "^2.2.6",
     "gatsby": "^2.26.1",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-source-contentful": "^4.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "sass": "^1.32.4"
+    "react-redux": "^7.2.2",
+    "react-toastify": "^6.2.0",
+    "sass": "^1.32.4",
+    "yup": "^0.32.8"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/react-redux": "^7.1.15"
+  }
 }

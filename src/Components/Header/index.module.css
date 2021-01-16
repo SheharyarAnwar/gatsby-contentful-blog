@@ -15,3 +15,16 @@
   /* letter-spacing: 1px; */
   margin-right: 25px;
 }
+.button {
+  background-color: var(--base);
+  height: 40px;
+  width: 110px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--seablue);
+  font-size: 0.9rem;
+  font-weight: bold;
+}
