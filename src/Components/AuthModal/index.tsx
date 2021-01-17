@@ -3,7 +3,11 @@ import classes from "./index.module.css";
 import { Form, Formik, FormikValues, useField } from "formik";
 import { authenticationSchema } from "../../Validation/authenticationSchema";
 import { useDispatch, useSelector } from "react-redux";
-import { authenticateUser, createUser } from "../../Store/RootReducer";
+import {
+  authenticateUser,
+  clearErrors,
+  createUser,
+} from "../../Store/RootReducer";
 import { AuthParams } from "../../Store/RootReducer/index.interface";
 import { Rootstate } from "../../Store";
 import { toast } from "react-toastify";
@@ -16,6 +20,7 @@ const Index: React.FC = () => {
   );
   if (error) {
     toast.info(error);
+    dispatch(clearErrors());
   }
   const initialValues: AuthParams = {
     email: "",

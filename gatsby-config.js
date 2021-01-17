@@ -4,18 +4,20 @@ require("dotenv").config({
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Josefin Sans`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Lora`,
-            variants: [`400`, `500`],
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: `Josefin Sans`,
+              variants: [`400`, `700`],
+            },
+            {
+              family: `Lora`,
+              variants: [`400`, `500`],
+            },
+          ],
+        },
       },
     },
     {
