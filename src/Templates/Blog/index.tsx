@@ -36,7 +36,7 @@ const Index: React.FC<BlogTemplateProps> = ({ pageContext }) => {
     <>
       <Layout>
         <div className={classes.blogContent}>
-          <h1>{data.title}</h1>
+          <h2 style={{ textAlign: "center" }}>{data.title}</h2>
           <div className={classes.authorBlock}>
             <h4>By {data.author}</h4>
             <h4>Posted {dayjs(data.createdAt).fromNow()}</h4>
