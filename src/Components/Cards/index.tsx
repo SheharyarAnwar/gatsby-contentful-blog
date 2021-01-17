@@ -10,7 +10,7 @@ export interface CardProps {
 const Index: React.FC<CardProps> = ({ title, author, date }) => {
   return (
     <div className={classes.root}>
-      <h1>{title}</h1>
+      <h2 style={{ width: "80%", textAlign: "center" }}>{title}</h2>
       <h4>{author}</h4>
       <h4 style={{ letterSpacing: "2px", fontWeight: 400 }}>{date}</h4>
     </div>
