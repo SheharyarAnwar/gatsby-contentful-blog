@@ -1,6 +1,7 @@
 require("dotenv").config({
   path: `.env`,
 });
+const environment = process.env.NODE_ENV;
 module.exports = {
   plugins: [
     {
